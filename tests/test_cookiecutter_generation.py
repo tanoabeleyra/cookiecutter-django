@@ -101,6 +101,7 @@ def test_project_generation(cookies, context, context_combination):
     check_paths(paths)
 
 
+@pytest.mark.lint
 def test_linting_passes(cookies, context_combination):
     """
     Generated project should pass flake8 & black.
