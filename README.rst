@@ -43,7 +43,6 @@ Features
 * 12-Factor_ based settings via django-environ_
 * Secure by default. We believe in SSL.
 * Optimized development and production settings
-* Registration via django-allauth_
 * Comes with custom user model ready to go
 * Optional custom static build using Gulp and livereload
 * Send emails via Anymail_ (using Mailgun_ by default, but switchable)
@@ -70,7 +69,6 @@ Optional Integrations
 .. _Bootstrap: https://github.com/twbs/bootstrap
 .. _django-environ: https://github.com/joke2k/django-environ
 .. _12-Factor: http://12factor.net/
-.. _django-allauth: https://github.com/pennersr/django-allauth
 .. _django-avatar: https://github.com/grantmcconnaughey/django-avatar
 .. _Procfile: https://devcenter.heroku.com/articles/procfile
 .. _Mailgun: http://www.mailgun.com/

@@ -84,8 +84,6 @@ MailHog
 
 MailHog is used to receive emails during development, it is written in Go and has no external dependencies.
 
-For instance, one of the packages we depend upon, ``django-allauth`` sends verification emails to new users signing up as well as to the existing ones who have not yet verified themselves.
-
 #. `Download the latest MailHog release`_ for your OS.
 
 #. Rename the build to ``MailHog``.

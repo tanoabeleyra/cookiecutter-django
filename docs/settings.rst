@@ -53,10 +53,3 @@ MAILGUN_API_KEY                         MAILGUN_API_KEY             n/a         
 MAILGUN_DOMAIN                          MAILGUN_SENDER_DOMAIN       n/a                                            raises error
 MAILGUN_API_URL                         n/a                         n/a                                            "https://api.mailgun.net/v3"
 ======================================= =========================== ============================================== ======================================================================
-
---------------------------
-Other Environment Settings
---------------------------
-
-DJANGO_ACCOUNT_ALLOW_REGISTRATION (=True)
-    Allow enable or disable user registration through `django-allauth` without disabling other characteristics like authentication and account management. (Django Setting: ACCOUNT_ALLOW_REGISTRATION)
