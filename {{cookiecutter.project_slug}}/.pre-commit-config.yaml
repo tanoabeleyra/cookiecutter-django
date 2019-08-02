@@ -6,3 +6,12 @@ repos:
         language_version: python3.6
         exclude: migrations
         stages: [commit]
+  - repo: local
+    hooks:
+      - id: tests
+        name: run tests
+        entry: ./run-tests.sh
+        pass_filenames: false
+        always_run: true
+        language: script
+        stages: [push]
